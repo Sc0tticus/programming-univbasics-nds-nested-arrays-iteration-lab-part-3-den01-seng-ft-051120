@@ -8,7 +8,7 @@ def join_nested_strings(src)
     element = 0 
     while element < src[row].count do 
       if src[row][index].to_i == 0 
-        string_results << src[row][index]
+        string_results << src[row][element]
       end 
       element += 1 
     end 
